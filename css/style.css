@@ -1,0 +1,216 @@
+/* Main CSS Start */
+
+:root{
+    --primary-font:'Work Sans', sans-serif;
+    --main-color: #131313;
+    --primary-color: #FF900E;
+    --gray-color:#727272;
+    --gray2-color:#424242;
+    --bg-color: #ff900e1a;
+    
+    
+}
+
+/* Common Styles */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:var(--primary-font);
+    color: var(--main-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* Header Start */
+
+
+
+/* Navbar */
+
+#header{
+    background-color: var(--bg-color);
+    padding-bottom: 20px;
+}
+
+.logo h1 a{
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav ul li a {
+    color: var(--gray2-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+
+.nav ul li:hover a {
+    color: var(--primary-color);
+}
+
+
+
+
+/* Head Content */
+
+
+
+.head_content_img img {
+    width: 100%;
+}
+
+.head_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head_content_img {
+    width: 80%;
+}
+
+.head_content_txt {
+    text-align: center;
+    width: 862px;
+    height: 155px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.head_content_txt h2 {
+    font-size: 45px;
+    padding: 0px 230px;
+}
+
+.head_content_txt p {
+    font-size: 14px;
+    padding: 0 50px;
+    color: var(--gray-color);
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 23px;
+}
+
+#explor_btn {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 15px 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s;
+    margin-top: 5px;
+}
+
+#explor_btn a{
+    color: #fff;
+}
+
+#explor_btn:hover{
+    background-color: #fff;
+}
+
+#explor_btn:hover a{
+    color: var(--primary-color);
+}
+
+/* Header End */
+
+
+
+/* Feature Section Start */
+
+
+#feature {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.feature_txt {
+    width: 50%;
+    margin-left: 52px;
+}
+
+.feature_content_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature_img_gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 50%;
+}
+
+.feature_img_gallery img {
+    width: 100%;
+}
+
+.feature_txt h3 {
+    font-size: 40px;
+    padding-right: 40px;
+}
+
+.feature_txt p {
+    font-size: 14px;
+    color: var(--gray-color);
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.color_style{
+    color: var(--gray-color);
+}
+
+.color_style_2{
+    color: var(--primary-color);
+}
+
+/* Feature Section End */
+
+
+
+/* Services Section Start */
+
+
+
+/* Services Section End */
