@@ -859,4 +859,9 @@ a{
         justify-content: start;
     }
 
+    .service_title h3::after{
+        width: 4px;
+        height: 70px;
+    }
+
 }
