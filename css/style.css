@@ -160,8 +160,8 @@ a{
 /* Feature Section Start */
 
 
-#feature {
-    padding-top: 60px;
+#feature, #facts_section, #service_section, #price_plan, #sponsor_section {
+    padding-top: 110px;
 }
 
 .feature_txt {
@@ -213,11 +213,6 @@ a{
 
 
 /* Services Section Start */
-
-#service_section {
-    padding-top: 150px;
-    padding-bottom: 60px;
-}
 
 .services_content_wrapper {
     display: grid;
@@ -332,10 +327,6 @@ a{
     margin-bottom: 100px;
 }
 
-#facts_section {
-    padding-top: 110px;
-}
-
 .factbox_wrapper {
     display: flex;
     align-items: center;
@@ -388,12 +379,6 @@ a{
 
 /* Sponsor Section Start */
 
-
-#sponsor_section {
-    padding-top: 150px;
-    padding-bottom: 60px;
-}
-
 .sponsor_title {
     text-align: center;
     margin: 0 auto;
@@ -412,6 +397,68 @@ a{
 
 
 /* Sponsor Section End */
+
+
+
+
+
+/* Price Section Start */
+
+.price_title {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.price_box_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price_list ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.price_box {
+    box-shadow: 0 0 40px 3px rgb(0 0 0 / 5%);
+    padding: 25px 20px;
+    border-radius: 15px;
+}
+
+.price_box p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.price_box h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.price_box h1 span {
+    font-size: 24px;
+}
+
+/* Price Section End */
+
+
+
+
+
+/* Footer Section Start */
+
+
+
+
+
+/* Footer Section End */
+
+
+
 
 .hide{
     display: none;
